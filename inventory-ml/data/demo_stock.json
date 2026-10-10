@@ -1,0 +1,222 @@
+[
+  {
+    "partName": "Engine oil 0W-20",
+    "partNumber": "EO020",
+    "quantity": 28.77,
+    "minQuantity": 10,
+    "unitPrice": 2000.0,
+    "supplier": "Demo supplier",
+    "unit": "litre",
+    "forecastItemId": "EO020",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Engine oil 10W-40",
+    "partNumber": "EO1040",
+    "quantity": 0.0,
+    "minQuantity": 10,
+    "unitPrice": 1700.0,
+    "supplier": "Demo supplier",
+    "unit": "litre",
+    "forecastItemId": "EO1040",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Brake fluid DOT 3",
+    "partNumber": "BF3",
+    "quantity": 8.39,
+    "minQuantity": 10,
+    "unitPrice": 2300.0,
+    "supplier": "Demo supplier",
+    "unit": "litre",
+    "forecastItemId": "BF3",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Brake fluid DOT 4",
+    "partNumber": "BF4",
+    "quantity": 4.94,
+    "minQuantity": 10,
+    "unitPrice": 2900.0,
+    "supplier": "Demo supplier",
+    "unit": "litre",
+    "forecastItemId": "BF4",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Automatic transmission fluid",
+    "partNumber": "ATF",
+    "quantity": 0.0,
+    "minQuantity": 10,
+    "unitPrice": 3150.0,
+    "supplier": "Demo supplier",
+    "unit": "litre",
+    "forecastItemId": "ATF",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "CVT transmission fluid",
+    "partNumber": "CVTF",
+    "quantity": 63.3,
+    "minQuantity": 10,
+    "unitPrice": 3800.0,
+    "supplier": "Demo supplier",
+    "unit": "litre",
+    "forecastItemId": "CVTF",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Gear oil 80W-90",
+    "partNumber": "GO8090",
+    "quantity": 10.42,
+    "minQuantity": 10,
+    "unitPrice": 2100.0,
+    "supplier": "Demo supplier",
+    "unit": "litre",
+    "forecastItemId": "GO8090",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Premixed coolant",
+    "partNumber": "CLT",
+    "quantity": 0.0,
+    "minQuantity": 10,
+    "unitPrice": 1500.0,
+    "supplier": "Demo supplier",
+    "unit": "litre",
+    "forecastItemId": "CLT",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Oil filter family A",
+    "partNumber": "OF-A",
+    "quantity": 106.0,
+    "minQuantity": 10,
+    "unitPrice": 1750.0,
+    "supplier": "Demo supplier",
+    "unit": "piece",
+    "forecastItemId": "OF-A",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Air filter family A",
+    "partNumber": "AF-A",
+    "quantity": 15.0,
+    "minQuantity": 10,
+    "unitPrice": 2700.0,
+    "supplier": "Demo supplier",
+    "unit": "piece",
+    "forecastItemId": "AF-A",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Cabin filter family A",
+    "partNumber": "CF-A",
+    "quantity": 9.0,
+    "minQuantity": 10,
+    "unitPrice": 2500.0,
+    "supplier": "Demo supplier",
+    "unit": "piece",
+    "forecastItemId": "CF-A",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Diesel fuel filter family D",
+    "partNumber": "FF-D",
+    "quantity": 8.0,
+    "minQuantity": 10,
+    "unitPrice": 5100.0,
+    "supplier": "Demo supplier",
+    "unit": "piece",
+    "forecastItemId": "FF-D",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Front brake pad axle set A",
+    "partNumber": "BP-A",
+    "quantity": 14.0,
+    "minQuantity": 10,
+    "unitPrice": 8700.0,
+    "supplier": "Demo supplier",
+    "unit": "axle_set",
+    "forecastItemId": "BP-A",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Front brake pad axle set B",
+    "partNumber": "BP-B",
+    "quantity": 9.0,
+    "minQuantity": 10,
+    "unitPrice": 12800.0,
+    "supplier": "Demo supplier",
+    "unit": "axle_set",
+    "forecastItemId": "BP-B",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Spark plug family A",
+    "partNumber": "SP-A",
+    "quantity": 13.0,
+    "minQuantity": 10,
+    "unitPrice": 2300.0,
+    "supplier": "Demo supplier",
+    "unit": "piece",
+    "forecastItemId": "SP-A",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Battery 45Ah family A",
+    "partNumber": "BAT45",
+    "quantity": 0.0,
+    "minQuantity": 10,
+    "unitPrice": 29500.0,
+    "supplier": "Demo supplier",
+    "unit": "piece",
+    "forecastItemId": "BAT45",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Wiper blade pair family A",
+    "partNumber": "WP-A",
+    "quantity": 9.0,
+    "minQuantity": 10,
+    "unitPrice": 4000.0,
+    "supplier": "Demo supplier",
+    "unit": "pair",
+    "forecastItemId": "WP-A",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Brake cleaner 500ml aerosol",
+    "partNumber": "BC500",
+    "quantity": 7.0,
+    "minQuantity": 10,
+    "unitPrice": 1350.0,
+    "supplier": "Demo supplier",
+    "unit": "can",
+    "forecastItemId": "BC500",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Windscreen washer fluid",
+    "partNumber": "WSH",
+    "quantity": 11.7,
+    "minQuantity": 10,
+    "unitPrice": 600.0,
+    "supplier": "Demo supplier",
+    "unit": "litre",
+    "forecastItemId": "WSH",
+    "dataOrigin": "synthetic_demo"
+  },
+  {
+    "partName": "Drive belt family A",
+    "partNumber": "DB-A",
+    "quantity": 13.0,
+    "minQuantity": 10,
+    "unitPrice": 4900.0,
+    "supplier": "Demo supplier",
+    "unit": "piece",
+    "forecastItemId": "DB-A",
+    "dataOrigin": "synthetic_demo"
+  }
+]

@@ -1,0 +1,21 @@
+item_id,item_name,category,unit,fitment_family,assumed_initial_unit_cost_lkr,assumed_initial_unit_price_lkr,order_pack_qty,normal_lead_time_days,assumed_base_daily_demand_qty,supplier_id,data_origin
+EO020,Engine oil 0W-20,Engine oil,litre,Petrol/hybrid requiring 0W-20,1500,2000,20,4,18,SUP-LUBE,synthetic_assumption
+EO1040,Engine oil 10W-40,Engine oil,litre,Engines requiring 10W-40,1250,1700,20,4,18,SUP-LUBE,synthetic_assumption
+BF3,Brake fluid DOT 3,Brake fluid,litre,Systems specifying DOT 3,1700,2300,6,5,2,SUP-LUBE,synthetic_assumption
+BF4,Brake fluid DOT 4,Brake fluid,litre,Systems specifying DOT 4,2200,2900,6,5,2,SUP-LUBE,synthetic_assumption
+ATF,Automatic transmission fluid,Transmission fluid,litre,Illustrative ATF fitment family,2350,3150,20,8,4,SUP-LUBE,synthetic_assumption
+CVTF,CVT transmission fluid,Transmission fluid,litre,Illustrative CVT fitment family,2900,3800,20,9,4,SUP-LUBE,synthetic_assumption
+GO8090,Gear oil 80W-90,Gear oil,litre,Manual gearbox/differential specifying 80W-90,1500,2100,20,6,3,SUP-LUBE,synthetic_assumption
+CLT,Premixed coolant,Coolant,litre,Illustrative compatible coolant chemistry,1100,1500,12,5,4,SUP-LUBE,synthetic_assumption
+OF-A,Oil filter family A,Filter,piece,Illustrative compact petrol fitment,1200,1750,12,5,7,SUP-PARTS,synthetic_assumption
+AF-A,Air filter family A,Filter,piece,Illustrative compact car fitment,1900,2700,6,7,3,SUP-PARTS,synthetic_assumption
+CF-A,Cabin filter family A,Filter,piece,Illustrative compact car fitment,1700,2500,6,7,3,SUP-PARTS,synthetic_assumption
+FF-D,Diesel fuel filter family D,Filter,piece,Illustrative light diesel fitment,3800,5100,4,10,1,SUP-PARTS,synthetic_assumption
+BP-A,Front brake pad axle set A,Brake pad,axle_set,Illustrative compact car front axle,6500,8700,4,9,1,SUP-PARTS,synthetic_assumption
+BP-B,Front brake pad axle set B,Brake pad,axle_set,Illustrative SUV front axle,9800,12800,4,12,1,SUP-PARTS,synthetic_assumption
+SP-A,Spark plug family A,Ignition,piece,Illustrative petrol engine fitment,1600,2300,16,8,3,SUP-PARTS,synthetic_assumption
+BAT45,Battery 45Ah family A,Battery,piece,Illustrative 12V 45Ah fitment,23500,29500,2,6,1,SUP-PARTS,synthetic_assumption
+WP-A,Wiper blade pair family A,Wiper,pair,Illustrative blade length pair,2800,4000,6,6,1,SUP-PARTS,synthetic_assumption
+BC500,Brake cleaner 500ml aerosol,Workshop consumable,can,Workshop cleaning,900,1350,12,4,2,SUP-WORKSHOP,synthetic_assumption
+WSH,Windscreen washer fluid,Workshop consumable,litre,Compatible washer system,350,600,20,4,3,SUP-WORKSHOP,synthetic_assumption
+DB-A,Drive belt family A,Belt,piece,Illustrative compact car belt fitment,3500,4900,4,12,1,SUP-WORKSHOP,synthetic_assumption

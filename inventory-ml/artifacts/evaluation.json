@@ -1,0 +1,197 @@
+{
+  "model_name": "Ridge seasonal",
+  "method": "direct_daily_calendar",
+  "data_origin": "synthetic_inventory_simulation",
+  "history_start": "2024-01-01",
+  "history_through": "2025-11-30",
+  "rows": 14000,
+  "features": [
+    "item_id",
+    "weekday",
+    "planned_open_hours",
+    "is_public_holiday",
+    "travel_window_proxy",
+    "pre_new_year_window",
+    "pre_holiday_3d",
+    "wet_season_proxy",
+    "year_sin",
+    "year_cos",
+    "halfyear_sin",
+    "halfyear_cos"
+  ],
+  "versions": {
+    "scikit-learn": "1.6.1"
+  },
+  "selection": "lowest validation macro daily WAPE for the daily graph; test untouched",
+  "train_dates": [
+    "2024-01-01",
+    "2025-05-04"
+  ],
+  "validation_dates": [
+    "2025-05-05",
+    "2025-08-17"
+  ],
+  "test_dates": [
+    "2025-08-18",
+    "2025-11-30"
+  ],
+  "validation_comparison": [
+    {
+      "model": "Ridge seasonal",
+      "daily_macro_WAPE": 0.836034148022528,
+      "weekly_macro_WAPE": 0.3147151535241227
+    },
+    {
+      "model": "Extra Trees calendar",
+      "daily_macro_WAPE": 0.8512291108107177,
+      "weekly_macro_WAPE": 0.32042590288811373
+    },
+    {
+      "model": "Histogram gradient boosting",
+      "daily_macro_WAPE": 0.8631009075287936,
+      "weekly_macro_WAPE": 0.32468710173125376
+    },
+    {
+      "model": "Item Poisson hourly calendar",
+      "daily_macro_WAPE": 0.8461184285031603,
+      "weekly_macro_WAPE": 0.3138417143824104
+    },
+    {
+      "model": "Weekday hourly mean",
+      "daily_macro_WAPE": 0.8454809051847286,
+      "weekly_macro_WAPE": 0.3095841801196366
+    }
+  ],
+  "locked_test": {
+    "daily_macro_WAPE": 0.908338575623867,
+    "weekly_macro_WAPE": 0.3671047633519194
+  },
+  "locked_test_baseline": {
+    "daily_macro_WAPE": 0.8981634658930899,
+    "weekly_macro_WAPE": 0.35879522532705954
+  },
+  "test_daily_envelope_coverage": 0.6842857142857143,
+  "per_item": [
+    {
+      "item_id": "AF-A",
+      "unit": "piece",
+      "MAE": 1.400241500739858,
+      "WAPE": 0.4362770254530715
+    },
+    {
+      "item_id": "ATF",
+      "unit": "litre",
+      "MAE": 3.020802350012871,
+      "WAPE": 1.157522249293305
+    },
+    {
+      "item_id": "BAT45",
+      "unit": "piece",
+      "MAE": 0.7059335042515781,
+      "WAPE": 1.0153838074851467
+    },
+    {
+      "item_id": "BC500",
+      "unit": "can",
+      "MAE": 0.9168155948028245,
+      "WAPE": 0.953125123309867
+    },
+    {
+      "item_id": "BF3",
+      "unit": "litre",
+      "MAE": 0.31795582132829003,
+      "WAPE": 1.5785040775163335
+    },
+    {
+      "item_id": "BF4",
+      "unit": "litre",
+      "MAE": 0.2661110701021265,
+      "WAPE": 1.478394833900703
+    },
+    {
+      "item_id": "BP-A",
+      "unit": "axle_set",
+      "MAE": 0.7735902020986136,
+      "WAPE": 0.682579590087012
+    },
+    {
+      "item_id": "BP-B",
+      "unit": "axle_set",
+      "MAE": 0.4972740160537808,
+      "WAPE": 1.6843152156660317
+    },
+    {
+      "item_id": "CF-A",
+      "unit": "piece",
+      "MAE": 1.5512242450087104,
+      "WAPE": 0.5170747483362368
+    },
+    {
+      "item_id": "CLT",
+      "unit": "litre",
+      "MAE": 2.886060091082,
+      "WAPE": 0.7415728013988107
+    },
+    {
+      "item_id": "CVTF",
+      "unit": "litre",
+      "MAE": 3.1304497981933856,
+      "WAPE": 1.1180938458749081
+    },
+    {
+      "item_id": "DB-A",
+      "unit": "piece",
+      "MAE": 0.5989365253885957,
+      "WAPE": 1.2331046110941675
+    },
+    {
+      "item_id": "EO020",
+      "unit": "litre",
+      "MAE": 10.030636670755396,
+      "WAPE": 0.2932902029577272
+    },
+    {
+      "item_id": "EO1040",
+      "unit": "litre",
+      "MAE": 11.794697129602959,
+      "WAPE": 0.36284145536078105
+    },
+    {
+      "item_id": "FF-D",
+      "unit": "piece",
+      "MAE": 0.6170646715780745,
+      "WAPE": 1.2224866135037327
+    },
+    {
+      "item_id": "GO8090",
+      "unit": "litre",
+      "MAE": 1.2929764602805105,
+      "WAPE": 1.19184029786194
+    },
+    {
+      "item_id": "OF-A",
+      "unit": "piece",
+      "MAE": 2.9323260239315734,
+      "WAPE": 0.29019249058700775
+    },
+    {
+      "item_id": "SP-A",
+      "unit": "piece",
+      "MAE": 2.5675768307950664,
+      "WAPE": 1.0698236794979443
+    },
+    {
+      "item_id": "WP-A",
+      "unit": "pair",
+      "MAE": 0.877637869641614,
+      "WAPE": 0.7313648913680116
+    },
+    {
+      "item_id": "WSH",
+      "unit": "litre",
+      "MAE": 0.8335871957274555,
+      "WAPE": 0.40898395192459613
+    }
+  ],
+  "limitation": "Synthetic single-station data. Calendar-conditional expected demand, not a guarantee. Multi-year projections and user scenarios are not independently validated."
+}
